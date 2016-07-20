@@ -7,13 +7,102 @@ body {
   background: white;
   background-size: cover;
   color: black;
-  font-size: 18px;
+  font-size: 16px;
+}
+
+/*--------------------------------------------------------*/
+
+.go_left {
+  float: left;
+}
+
+.go_right {
+  float: right;
+}
+
+nav {
+  background-color: #D9D4CF;
+  height: 65px;
+  left: 0px;
+  top: 0px;
+  position: fixed;
+  width: 100%;
+  border-bottom: solid 0.5px #7C7877;
+  display: inline-block;
+}
+
+nav ul {
+  padding-left: 25px;
+  margin: 0px;
+  list-style-type: none;
+  line-height: 60px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 75px;
+  text-decoration: none;
+  color: #7C7877;
+  line-height: 65px;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+nav ul li:hover {
+    background-color: #fffff5;
+    border-radius: 20px;
+}
+
+/*------------------------------------------------------------------*/
+
+.information {
+  margin-top: 70px;
+  padding-left: 40px;
+}
+
+#countries {
+  display: inline-block;
+  margin-top: 150px;
+  border: solid #7C7877 1px;
+}  
+
+#info p {
+  color: #7C7877;
+}
+
+select {
+    border: solid grey 0.5px;
+    color: #7C7877;
+    background: transparent;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 2px 10px;
+}
+
+select:hover {
+  background-color: #D9D4CF;
+}
+
+#add-button {
+  margin-top: 25px;
+  display: inline-block;
 }
 
 #map {
-  height: 500px;
-  width: 500px;
+  height: 300px;
+  width: 450px;
   border-radius: 10px;
   box-shadow: 1px 1px 2px #333;
   border: 1px solid #FFFDD0;
+  display: inline-block;
+  float: right;
+  margin-right: 40px;
+  margin-top: -230px;
   }
+
+
+
+

@@ -46,9 +46,9 @@ var populateSelect = function (countries) {
 
 var updateDisplay = function (lala) {
     var tags = document.querySelectorAll('#info p');
-    tags[0].innerText = "Country: " + lala.name;
-    tags[1].innerText = "Population: " + lala.population;
-    tags[2].innerText = "Capital: " + lala.capital;
+    tags[0].innerText = "Country:   " + lala.name;
+    tags[1].innerText = "Population:   " + lala.population;
+    tags[2].innerText = "Capital:   " + lala.capital;
     var latLng = {lat: lala.latlng[0], lng: lala.latlng[1]}
     var map = new Map( latLng, 8 );
     map.addMarker(latLng)
@@ -79,6 +79,10 @@ this.addInfoWindow = function( latLng, title ) {
       infoWindow.open( this.map, marker )
     })
   }
+
+
+
+ 
 
 
 }
